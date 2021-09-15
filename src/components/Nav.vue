@@ -8,7 +8,7 @@
         <ul>
           <li v-for="(data, index) in navData" :key="index" class="uppercase aux_color_light_txt mx-3"> {{data}} </li>
         </ul>
-        <div class="d-inline-block aux_color_lighter_txt uppercase brand_color py-1 px-3 rounded-2">Get in touch</div>
+        <div class="button_style">Get in touch</div>
       </div>
   </div>
 </template>

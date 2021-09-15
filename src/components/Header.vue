@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <header class="position-absolute w-100">
         <Contacts />
         <Nav />
-    </div>
+    </header>
 </template>
 
 <script>
@@ -18,5 +18,4 @@ export default {
 </script>
 
 <style>
-
 </style>

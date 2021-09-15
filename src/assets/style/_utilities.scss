@@ -43,6 +43,10 @@
     color: $aux_color_lighter;
 }
 
+.color_white_txt {
+    color: white;
+}
+
 // Shape properties
 .rounded-half {
     border-bottom-left-radius: 50rem;
@@ -53,3 +57,7 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+.fsize-bg {
+    font-size: 55px;
+} 
