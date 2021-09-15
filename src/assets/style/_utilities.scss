@@ -46,6 +46,9 @@
 .color_white_txt {
     color: white;
 }
+.color_white {
+    background-color: white;
+}
 
 // Shape properties
 .rounded-half {
@@ -61,3 +64,13 @@
 .fsize-bg {
     font-size: 55px;
 } 
+
+// Margin properties
+.p-standard {
+    padding: 80px 0;
+}
+
+// Sizing properties
+.w-80 {
+    width: 80px;
+}
