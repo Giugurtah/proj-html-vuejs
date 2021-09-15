@@ -1,0 +1,55 @@
+// Color properties
+.brand_color {
+    background-color: $brand_color;
+}
+.brand_color_txt {
+    color: $brand_color;
+}
+.brand_color_light {
+    background-color: $brand_color_light;
+}
+.brand_color_light_txt {
+    color: $brand_color_light;
+}
+.brand_color_lighter {
+    background-color: $brand_color_lighter;
+}
+.brand_color_lighter_txt {
+    color: $brand_color_lighter;
+}
+
+.aux_color_dark {
+    background-color: $aux_color_dark;
+}
+.aux_color_dark_txt {
+    color: $aux_color_dark;
+}
+.aux_color_darker {
+    background-color: $aux_color_darker;
+}
+.aux_color_darker_txt {
+    color: $aux_color_darker;
+}
+.aux_color_light {
+    background-color: $aux_color_light;
+}
+.aux_color_light_txt {
+    color: $aux_color_light;
+}
+.aux_color_lighter {
+    background-color: $aux_color_lighter;
+}
+.aux_color_lighter_txt {
+    color: $aux_color_lighter;
+}
+
+// Shape properties
+.rounded-half {
+    border-bottom-left-radius: 50rem;
+    border-top-left-radius: 50rem;
+}
+
+// Font properties
+.uppercase {
+    text-transform: uppercase;
+}
