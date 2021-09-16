@@ -1,5 +1,5 @@
 <template>
-  <div id="contacts" class="aux_color_dark aux_color_lighter_txt">
+  <section id="contacts" class="aux_color_dark aux_color_lighter_txt">
     <div class="container d-flex justify-content-between p-2 fs-6">
       <div>
         <i class="fas fa-clock"></i>
@@ -21,7 +21,7 @@
         </div>
       </div>
     </div>      
-  </div>
+  </section>
 </template>
 
 <script>

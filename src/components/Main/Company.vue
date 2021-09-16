@@ -1,5 +1,5 @@
 <template>
-  <div id="company" class="d-flex align-items-center aux_color_darker p-standard">
+  <section id="company" class="d-flex align-items-center aux_color_darker p-standard">
       <div class="container">
           <h6 class="uppercase brand_color_txt fw-bold">About the network</h6>
           <div class="row aux_color_light_txt">
@@ -18,11 +18,11 @@
               </div>
           </div>
       </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import companyData from "../assets/data/company.js"
+import companyData from "../../assets/data/company.js"
 export default {
   name: 'Company',
   data() {

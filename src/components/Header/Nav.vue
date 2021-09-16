@@ -1,20 +1,20 @@
 <template>
-  <div id="nav" class="container d-flex justify-content-between align-content-center py-2">
+  <section id="nav" class="container d-flex justify-content-between align-content-center py-2">
       <div id="logo" class="fw-bold">
-        <div class="d-inline-block text-end rounded-half brand_color_light brand_color_lighter_txt pe-1 py-2">N E X</div>
+        <div class="d-inline-block text-end rounded-half brand_color_base brand_color_light_txt pe-1 py-2">N E X</div>
         <div class="d-inline-block ps-1">G E N</div>
       </div>
       <div class="my-2">
         <ul>
-          <li v-for="(data, index) in navData" :key="index" class="uppercase aux_color_light_txt mx-3"> {{data}} </li>
+          <li v-for="(data, index) in navData" :key="index" class="uppercase color_gray_txt mx-3"> {{data}} </li>
         </ul>
         <div class="button_style">Get in touch</div>
       </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import navData  from "../assets/data/nav.js";
+import navData  from "../../assets/data/nav.js";
 export default {
   name: 'Nav',
   data() {

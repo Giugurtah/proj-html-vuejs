@@ -17,6 +17,13 @@
 .brand_color_lighter_txt {
     color: $brand_color_lighter;
 }
+.brand_color_base {
+    background-color: $brand_color_base;
+}
+.brand_color_base_txt {
+    color: $brand_color_base;
+}
+
 
 .aux_color_dark {
     background-color: $aux_color_dark;
@@ -49,11 +56,24 @@
 .color_white {
     background-color: white;
 }
+.color_gray_txt {
+    color: $gray_shade;
+}
+.color_gray {
+    background-color: $gray_shade;
+}
 
 // Shape properties
 .rounded-half {
     border-bottom-left-radius: 50rem;
     border-top-left-radius: 50rem;
+}
+.rounded-style {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 // Font properties

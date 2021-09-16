@@ -21,8 +21,8 @@ li {
 }
 
 .form_style {
-    background-color: $aux_color_lighter;
-    color: $aux_color_light;
+    background-color: $aux_color_light;
+    color: $gray_shade;
     border: none;
     line-height: 35px;
     border-radius: 5px;
@@ -36,5 +36,10 @@ li {
     text-transform: uppercase;
     padding: 0.45rem 1.30rem;
     border-radius: 5px;
+}
 
+.button_alternative {
+    border: 1px solid $brand_color;
+    color: $brand_color;
+    background-color: initial;
 }

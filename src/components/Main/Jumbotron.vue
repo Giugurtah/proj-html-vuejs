@@ -1,13 +1,13 @@
 <template>
-  <div id="jumbotron" >
+  <section id="jumbotron" >
       <form >
         <h5 class="uppercase brand_color_light_txt">fusion & aquisitions</h5>
         <h1>Insurance Consulting</h1>
         <div class="row g-1">
-            <div class="col-6 p-2"><input class="w-100 form_style" type="text" placeholder="Name" name="" id=""></div>
-            <div class="col-6 p-2"><input class="w-100 form_style" type="email" placeholder="Email" name="" id=""></div>
-            <div class="col-6 p-2"><input class="w-100 form_style" type="tel" placeholder="Phone" name="" id=""></div>
-            <div class="col-6 p-2">
+            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="text" placeholder="Name" name="" id=""></div>
+            <div class="col-6 py-2"><input class="w-100 form_style" type="email" placeholder="Email" name="" id=""></div>
+            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="tel" placeholder="Phone" name="" id=""></div>
+            <div class="col-6 py-2">
                 <select class="w-100 form_style h-100" name="" id="">
                     <option default value="More info">More info</option>
                     <option  value="Name">Name</option>
@@ -16,8 +16,12 @@
                 </select>
             </div>
         </div>
+        <div class="buttons py-2">
+            <div class="button_style me-3">get in touch</div>
+            <div class="button_style button_alternative">read more</div>
+        </div>
       </form>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -27,9 +31,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/style/_variables.scss";
+@import "../../assets/style/_variables.scss";
 #jumbotron {
-    background-image: url("../assets/img/bg-6.jpg");
+    background-image: url("../../assets/img/bg-6.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -20px ;
@@ -39,7 +43,7 @@ export default {
     position: relative;
 
     ::placeholder {
-        color: $aux_color_light;
+        color: $gray_shade;
         opacity: 1;
     }
 
