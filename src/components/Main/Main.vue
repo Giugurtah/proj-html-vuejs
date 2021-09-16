@@ -5,6 +5,8 @@
         <Services />
         <Management />
         <Team />
+        <News />
+        <Newsletter />
     </main>
 </template>
 
@@ -14,6 +16,8 @@ import Company from "./Company.vue";
 import Services from "./Services.vue";
 import Management from "./Management.vue";
 import Team from "./Team.vue";
+import News from "./News.vue";
+import Newsletter from "./Newsletter.vue";
 export default {
   name: "Main",
   components: {
@@ -22,6 +26,8 @@ export default {
       Services,
       Management,
       Team,
+      News,
+      Newsletter
   }
 }
 </script>

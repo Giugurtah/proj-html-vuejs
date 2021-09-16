@@ -31,6 +31,6 @@ export default {
 .break_line {
     height: 3px;
     width: 100%;
-    background-color:  $brand_color_base;
+    background-color:  $brand_color_lighter;
 }
 </style>

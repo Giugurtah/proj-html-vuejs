@@ -1,5 +1,5 @@
 <template>
-  <section id="jumbotron" >
+  <section id="jumbotron" class="position-relative">
       <form >
         <h5 class="uppercase brand_color_light_txt">fusion & aquisitions</h5>
         <h1>Insurance Consulting</h1>
@@ -55,4 +55,12 @@ export default {
         width: 550px;
     }
 }
+// Overlay usato per regolare la tonalità dello sfondo del jumbotron con il nuovo tema
+#jumbotron:before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(231,130,130,.1);
+    }
 </style>
