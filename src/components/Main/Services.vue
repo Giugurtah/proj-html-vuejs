@@ -10,7 +10,7 @@
                 <p class="w-75">
                     We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.
                 </p>
-                <div class="button_style">see all</div>
+                <button class="button_style">see all</button>
             </div>
             <!-- Stampa card -->
             <div class="row g-4">

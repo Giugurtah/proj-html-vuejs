@@ -19,7 +19,7 @@
                 <!-- Email -->
                 <input class="d-block w-75 my-2 form_style" type="email" placeholder="Email" name="" id="">
                 <!-- Bottone -->
-                <div class="button_style my-2">subscribe</div>
+                <button class="button_style my-2">subscribe</button>
               </form>
           </div>
       </div>
