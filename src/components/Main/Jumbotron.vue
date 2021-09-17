@@ -1,14 +1,21 @@
 <template>
+  <!-- Section contenente il jumbotron + un form -->
   <section id="jumbotron" class="position-relative">
       <form >
-        <h5 class="uppercase brand_color_light_txt">fusion & aquisitions</h5>
-        <h1>Insurance Consulting</h1>
+        <!-- Titolo + intestazione -->
+        <h5 class="intestazione_style brand_color_light_txt">fusion & aquisitions</h5>
+        <h1 class="tytle_style">Insurance Consulting</h1>
+        <!-- Form -->
         <div class="row g-1">
-            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="text" placeholder="Name" name="" id=""></div>
-            <div class="col-6 py-2"><input class="w-100 form_style" type="email" placeholder="Email" name="" id=""></div>
-            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="tel" placeholder="Phone" name="" id=""></div>
+            <!-- Nome -->
+            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="text" placeholder="Name" name="name" id="name"></div>
+            <!-- Email -->
+            <div class="col-6 py-2"><input class="w-100 form_style" type="email" placeholder="Email" name="email" id="email"></div>
+            <!-- Phone -->
+            <div class="col-6 pe-2 py-2"><input class="w-100 form_style" type="tel" placeholder="Phone" name="phone" id="phone"></div>
+            <!-- Select info -->
             <div class="col-6 py-2">
-                <select class="w-100 form_style h-100" name="" id="">
+                <select class="w-100 form_style h-100" name="info" id="info">
                     <option default value="More info">More info</option>
                     <option  value="Name">Name</option>
                     <option  value="Email">Email</option>
@@ -16,9 +23,10 @@
                 </select>
             </div>
         </div>
+        <!-- Bottoni -->
         <div class="buttons py-2">
-            <div class="button_style me-3">get in touch</div>
-            <div class="button_style button_alternative">read more</div>
+            <button class="button_style me-3">get in touch</button>
+            <button class="button_style button_alternative brand_color_txt">read more</button>
         </div>
       </form>
   </section>
@@ -32,6 +40,8 @@ export default {
 
 <style lang="scss">
 @import "../../assets/style/_variables.scss";
+
+// Proprietà custom del jumbotron
 #jumbotron {
     background-image: url("../../assets/img/bg-6.jpg");
     background-size: cover;

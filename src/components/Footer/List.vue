@@ -1,12 +1,15 @@
 <template>
+    <!-- Section del footer che conntiene varie info e recapiti -->
     <section id="List" class="aux_color_darker p-standard"> 
         <div class="container aux_color_light_txt">
             <div class="row gx-5">
                 <div class="col-3">
+                    <!-- Logo -->
                     <Logo :colorText="'color_white_txt'"/>
                     <p class="my-4">
                         A Functional HTML Template for Corporate & Business.
                     </p>
+                    <!-- Recapiti -->
                     <div class="my-1">
                         <i class="fas fa-phone-alt me-3"></i>
                         +1(305)1234-5678
@@ -19,8 +22,10 @@
                         <i class="fas fa-map-marker-alt me-3"></i>
                         Main Avenue, 987
                     </div>
-                    <div class="button_style button_alternative color_white_txt mt-5">get in touch</div>
+                    <!-- Bottone -->
+                    <button class="button_style button_alternative color_white_txt mt-5">get in touch</button>
                 </div>
+                <!-- Stampa card  -->
                 <ListCard v-for="(item, index) in listData" :key="index" :item="item" />
             </div>
         </div>
@@ -46,5 +51,4 @@ export default {
 </script>
 
 <style>
-
 </style>

@@ -1,4 +1,5 @@
 <template>
+    <!-- Footer -->
     <footer>
         <List :colorText="'color_white_txt'" /> 
         <PoweredBy />

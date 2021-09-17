@@ -1,4 +1,5 @@
 <template>
+    <!-- Main del sito -->
     <main>
         <Jumbotron />
         <Company />

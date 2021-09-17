@@ -1,9 +1,11 @@
 <template>
+  <!-- Template card utilizzata in News.vue -->
   <div class="news_card col-4">
-      <div class="position-relative" 
+     <!--Bckground + contenuto (ricevuti tramite props)  -->
+    <div class="position-relative" 
       v-bind:style="{'background-image': 'url(' + require('../../assets/img/' + this.item.img) + ')'}">
-        <p class="position-absolute bottom-0 mx-5 mb-5 text-center color_white_txt fw-bolder fs-3 lh-sm">{{item.text}}</p>
-      </div>
+      <p class="position-absolute bottom-0 mx-5 mb-5 text-center color_white_txt fw-bolder fs-3 lh-sm">{{item.text}}</p>
+    </div>
   </div>
 </template>
 
@@ -16,6 +18,7 @@ export default {
 
 <style lang="scss">
 .news_card {
+  // Styling custom della simgola card
   div {
     height: 400px;
     background-position: center;
@@ -23,6 +26,7 @@ export default {
 
     border-radius: 20px;
   }
+  // Style di aggiunta overlay
   div:before {
     content: "";
     position: absolute;

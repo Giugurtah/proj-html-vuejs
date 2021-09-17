@@ -1,3 +1,4 @@
+// Data necessari per stampare dinamicamente i contenuti in Company.vue
 export default 
 [
     {

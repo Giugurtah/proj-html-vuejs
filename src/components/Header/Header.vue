@@ -1,4 +1,5 @@
 <template>
+    <!-- Header del sito -->
     <header class="position-absolute w-100">
         <Contacts />
         <Nav />

@@ -1,3 +1,4 @@
+// Data necessari per stampare dinamicamente i contenuti in News.vue
 export default 
 [
     {

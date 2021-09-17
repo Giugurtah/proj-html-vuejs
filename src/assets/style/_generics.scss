@@ -1,3 +1,4 @@
+//* Stylesheet contenete proprietà per lo stailing di interi elementi
 header {
     z-index: 1;
 }
@@ -6,9 +7,11 @@ h1 {
     font-weight: 800;
     font-size: 55px;
 }
+
 p {
     font-size: 1.1rem;
 }
+
 ul {
     display: inline-block;
     list-style: none;
@@ -20,6 +23,14 @@ li {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: $brand_color;
+}
+
 .form_style {
     background-color: $aux_color_light_transparent;
     color: $gray_shade;
@@ -29,17 +40,33 @@ li {
     padding-left: 20px;
 }
 
+// Proprietà di styling dei bottoni
 .button_style {
     display: inline-block;
-    background-color: $brand_color;
+    border-width: 0;
+    background-color: $brand_color; 
     color: $aux_color_lighter;
     text-transform: uppercase;
     padding: 0.45rem 1.30rem;
     border-radius: 5px;
 }
+    // Proprietà opzionali per bottone
+    .button_alternative {
+        border: 1px solid $brand_color;
+        background-color: initial;
+    }
 
-.button_alternative {
-    border: 1px solid $brand_color;
-    color: $brand_color;
-    background-color: initial;
+// Proprietà di titolo + intestazione (ripetuti in tutti i componenti del sito)
+// Le proprietà dei colori non sono specificate in modo da rendere le classi più costumizzabili
+.title_style {
+
+    .underline_title {
+        display: inline-block;
+        padding: 0 0.5rem
+    }
+}
+
+.intestazione_style {
+    text-transform: uppercase;
+    font-weight: bold;
 }

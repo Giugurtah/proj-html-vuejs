@@ -1,10 +1,13 @@
 <template>
+  <!-- Section contenete le info di contatto del cliente -->
   <section id="contacts" class="aux_color_dark aux_color_lighter_txt">
     <div class="container d-flex justify-content-between p-2 fs-6">
+      <!-- Info a sx contenete gli orari di apertura -->
       <div>
         <i class="fas fa-clock"></i>
         Open Haurs: Mon - Sat - 9:00 - 18:00
       </div>
+      <!-- Info a dx contenet i recapiti -->
       <div>
         <div class="d-inline-block mx-3">
           <i class="fas fa-phone-alt"></i>
@@ -31,7 +34,4 @@ export default {
 </script>
 
 <style scoped>
-div {
-  font-size: 0.75rem;
-}
 </style>
